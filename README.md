@@ -17,15 +17,22 @@ This project implements an Eularian fluid simulation. The goal is to simulate fl
     pip install pygame
     ```
 3. Run the main simulation script.
+    ```bash
+    python render.py
+    ```
+    or
+   ```bash
+    python3 render.py
+    ```
 
 _Detailed instructions will be added as development progresses._
 
 ## Roadmap
 
 - [x] Litteral implementation in 2D of [Fluid Simulation for Dummies](https://www.mikeash.com/pyblog/fluid-simulation-for-dummies.html)
-- [] Refactor the code to improve efficiency / optmize still in python
-- [] Write in C++ a code to do the same thing
-- [] Implement an academic paper about Eularian Fluid Simulation
+- [ ] Refactor the code to improve efficiency / optmize still in python
+- [ ] Write in C++ a code to do the same thing
+- [ ] Implement an academic paper about Eularian Fluid Simulation
 
 ## Inspiration
 
@@ -33,5 +40,5 @@ This project is inspired by:
 
 - Jos Stam's "Stable Fluids" ([SIGGRAPH 1999 paper](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf))
 - Mike Ash's [Fluid Simulation for Dummies](https://www.mikeash.com/pyblog/fluid-simulation-for-dummies.html)
-- "[How to write an Eulerian Fluid Simulator](https://matthias-research.github.io/pages/tenMinutePhysics/17-fluidSim.pdf)" by Matthias Müller
+- And Matthias Müller's "[How to write an Eulerian Fluid Simulator](https://matthias-research.github.io/pages/tenMinutePhysics/17-fluidSim.pdf)"
 
